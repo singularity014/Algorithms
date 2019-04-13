@@ -1,5 +1,5 @@
-# Data Structure Algorithms
-Implementations of Algorithms with Python
+# Algorithms-with-Python
+List of Algorithms and Data Structures
 
 1) Arrays
 2) AVL Trees
@@ -15,4 +15,4 @@ Implementations of Algorithms with Python
 12) Prims Algorithm
 13) Stack
 14) Queue
-15) Ternary Search Tree..
+15) Ternary Search Tree
