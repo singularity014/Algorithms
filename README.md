@@ -15,4 +15,4 @@ Implementations of Algorithms with Python
 12) Prims Algorithm
 13) Stack
 14) Queue
-15) Ternary Search Tree
+15) Ternary Search Tree..
