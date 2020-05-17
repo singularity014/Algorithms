@@ -22,6 +22,7 @@ class HashTable(object):
 		# insert
 		self.keys[index] = key
 		self.values[index] = data
+		
 	
 	def get(self,key):
 		
