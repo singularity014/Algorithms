@@ -4,13 +4,13 @@ class Heap(object):
 	HEAP_SIZE = 10
 	
 	def __init__(self):
-		self.heap = [0]*Heap.HEAP_SIZE;
-		self.currentPosition = -1;
+		self.heap = [0]*Heap.HEAP_SIZE
+		self.currentPosition = -1
 		
 	def insert(self, item):
 	
 		if self.isFull():
-			print("Heap is full..");
+			print("Heap is full..")
 			return 
 			
 		self.currentPosition = self.currentPosition + 1
@@ -64,7 +64,7 @@ class Heap(object):
 				
 				index = childToSwap
 			else:
-				break;							
+				break							
 			
 	def isFull(self):
 		if self.currentPosition == Heap.HEAP_SIZE:
