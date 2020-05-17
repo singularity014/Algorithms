@@ -43,6 +43,7 @@ class TST(object):
 			
 		return node.value
 	
+	
 	def getItem(self, node, key, index):
 	
 		if node == None:
