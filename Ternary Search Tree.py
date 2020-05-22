@@ -8,6 +8,7 @@ class Node(object):
 		self.rightNode = None
 		self.value = 0
 		
+		
 class TST(object):
 
 	def __init__(self):
