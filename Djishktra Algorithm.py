@@ -25,6 +25,7 @@ class Node(object):
 		otherPriority = other.minDistance
 		return selfPriority < otherPriority
 
+	
 class Algorithm(object):
 
 	def calculateShortestPath(self, vertexList, startVertex):
