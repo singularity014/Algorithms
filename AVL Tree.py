@@ -7,7 +7,8 @@ class Node(object):
 		self.height = 0;
 		self.leftChild = None;
 		self.rightChild = None;
-		
+
+# AVL class
 class AVL(object):
 
 	def __init__(self):
