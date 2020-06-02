@@ -7,7 +7,7 @@ class Edge(object):
 		self.weight = weight
 		self.startVertex = startVertex
 		self.targetVertex = targetVertex
-		
+# Node		
 class Node(object):
 
 	def __init__(self, name):
