@@ -18,7 +18,8 @@ class DepthFirstSearch(object): # BFS -> queue + layer by layer algorithm   DFS 
 			if not n.visited:
 				self.dfs(n)
 		
-	
+
+		
 node1 = Node("A")
 node2 = Node("B")
 node3 = Node("C")
