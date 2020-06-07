@@ -36,7 +36,8 @@ class Heap(object):
 			self.heap[0] = self.heap[self.currentPosition-i]
 			self.heap[self.currentPosition-i] = temp
 			self.fixDown(0,self.currentPosition-i-1)
-			
+	
+	
 	def fixDown(self, index, upto):
 
 		while index <= upto:
