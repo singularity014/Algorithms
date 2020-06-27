@@ -8,6 +8,7 @@ class Node(object):
 		self.leftChild = None;
 		self.rightChild = None;
 
+		
 # AVL class
 class AVL(object):
 
